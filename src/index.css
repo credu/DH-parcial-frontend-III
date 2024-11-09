@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-header {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.form-container {
+  margin-top: 40px;
+  font-size: 20px;
+  padding: 24px;
+  background-color: #f3f3f3;
+  border: 2px solid #a3a3a346;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  font-size: inherit;
+  padding: 5px 10px;
+  border: 2px solid #a3a3a346;
+}
+
+.form-button {
+  margin: 0 auto;
+  display: block;
+  background-color: #1a41f0;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: inherit;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #f3f3f3;
+  margin-bottom: 25px;
+}
+
+.author-span {
+  color: #000000a6;
+}
+
+.books-container-content {
+  padding: 10px 24px;
+  display: inline-block;
+  flex: 1 0 0;
+  border: 2px solid #a3a3a346;
+}
+
+.books-delete-button {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  align-items: stretch;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
